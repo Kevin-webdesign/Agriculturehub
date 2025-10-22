@@ -8,58 +8,51 @@ export function Services() {
   const services = [
     {
       icon: Sprout,
-      title: "Agricultural Consultancy",
+      title: "Seed production and breeding",
       description:
-        "Expert guidance for optimizing your farming operations. Comprehensive farm assessments, crop planning strategies, and ongoing support to maximize productivity and profitability.",
+        "Well scientific research-based field seed production .",
       image: "/agricultural-consultant-advising-farmer-in-green-c.jpg",
     },
     {
       icon: GraduationCap,
-      title: "Training & Capacity Building",
+      title: "Seed Processing for Propagation",
       description:
-        "Hands-on training programs covering modern farming techniques, sustainable practices, pest management, and agribusiness management for farmers and agricultural workers.",
+        "Specialized in processing high-quality seeds to ensure optimal germination rates and resilience.",
       image: "/farmers-attending-agricultural-training-workshop-o.jpg",
     },
     {
       icon: FlaskConical,
-      title: "Soil Analysis & Testing",
+      title: "Support Activities for Crop Production",
       description:
-        "State-of-the-art laboratory analysis including nutrient levels, pH balance, organic matter content, and soil structure with detailed actionable recommendations.",
+        "Providing technical assistance, research, and advisory services to farmers and agribusinesses.",
       image: "/soil-scientist-testing-soil-samples-in-modern-labo.jpg",
     },
     {
       icon: TrendingUp,
-      title: "Agribusiness Planning",
+      title: "Post-Harvest Crop Activities",
       description:
-        "Comprehensive business plans, market analysis, financial projections, and growth strategies for agricultural enterprises seeking to scale and succeed.",
+        "Enhancing value addition and storage solutions for processed seeds.",
       image: "/business-meeting-discussing-agricultural-growth-ch.jpg",
     },
     {
       icon: Package,
-      title: "Farm Input Supply",
+      title: "Research & Development",
       description:
-        "Access to certified seeds, organic fertilizers, crop protection products, and modern farming equipment from trusted suppliers at competitive prices.",
+        "Engaging experimental research on natural sciences and engineering to advance agricultural methodologies.",
       image: "/agricultural-supplies-seeds-fertilizers-and-farmin.jpg",
     },
     {
       icon: Lightbulb,
-      title: "Innovation & Technology",
+      title: "Warehousing & Storage",
       description:
-        "Precision farming tools, drone surveys, IoT sensors, weather monitoring, and data analytics platforms for smart farming practices and decision-making.",
+        "Offering secure storage facilities to maintain seed viability and quality.",
       image: "/modern-agricultural-technology-drone-and-sensors-i.jpg",
     },
     {
       icon: Tractor,
-      title: "Mechanization Services",
+      title: "Transportation & Logistics",
       description:
-        "Farm machinery rental, equipment maintenance, and mechanization consulting to improve efficiency and reduce labor costs in your operations.",
-      image: "/placeholder.svg?height=400&width=600",
-    },
-    {
-      icon: Droplets,
-      title: "Irrigation Solutions",
-      description:
-        "Design and installation of efficient irrigation systems including drip, sprinkler, and smart water management solutions for optimal crop growth.",
+        "Ensuring efficient distribution of seeds across Rwanda.",
       image: "/placeholder.svg?height=400&width=600",
     },
   ]

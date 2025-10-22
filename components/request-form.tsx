@@ -116,12 +116,13 @@ export function RequestForm() {
                   required
                 >
                   <option value="">Select a service</option>
-                  <option value="consultancy">Agricultural Consultancy</option>
-                  <option value="training">Training & Capacity Building</option>
-                  <option value="soil-analysis">Soil Analysis & Testing</option>
-                  <option value="agribusiness">Agribusiness Planning</option>
-                  <option value="farm-inputs">Farm Input Supply</option>
-                  <option value="technology">Innovation & Technology</option>
+                  <option value="seed production and breeding">Seed production and breeding</option>
+                  <option value="Seed Processing for Propagation">Seed Processing for Propagation</option>
+                  <option value="Support Activities for Crop Production">Support Activities for Crop Production</option>
+                  <option value="Post-Harvest Crop Activities">Post-Harvest Crop Activities</option>
+                  <option value="Research & Development">Research & Development</option>
+                  <option value="Warehousing & Storage">Warehousing & Storage</option>
+                  <option value="Transportation & Logistics">Transportation & Logistics</option>
                 </select>
               </div>
             </div>

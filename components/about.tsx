@@ -6,22 +6,43 @@ export function About() {
       icon: Target,
       title: "Our Mission",
       description:
-        "To empower farmers and agribusinesses with innovative solutions, expert guidance, and sustainable practices that enhance productivity and profitability while preserving our environment for future generations.",
+        "Providing quality seed that empower farmers with the optimize yields for ensure food security in sustainable model.",
     },
     {
       icon: Eye,
       title: "Our Vision",
       description:
-        "To be the leading agricultural consultancy recognized for transforming farming communities through cutting-edge technology, research-driven insights, and unwavering commitment to sustainable agriculture.",
-    },
-    {
-      icon: Heart,
-      title: "Core Values",
-      description:
-        "Integrity, Innovation, Sustainability, Excellence, and Community. We believe in building lasting relationships based on trust, delivering solutions that work, and creating positive impact in every community we serve.",
-    },
+        "To become a leading force in agricultural transformation through innovative seed production, processing, research, and sustainable agribusiness practices.",
+    }
   ]
 
+   const corevalues = [
+    {
+      title: "Quality",
+      description:
+        " Commitment to the highest standards in seed processing and agricultural consultancy.",
+    },
+    {
+      title: "Innovation",
+      description:
+        " Embracing new technologies and research for sustainable agriculture.",
+    },
+    {
+      title: "Integrity",
+      description:
+        " Conducting business with transparency, trust, and professionalism.",
+    },
+     {
+      title: "Partnerships",
+      description:
+        "  Collaborating with farmers, research institutions, and agricultural stakeholders.",
+    },
+      {
+      title: "Sustainability",
+      description:
+        "  Promoting environmentally friendly and resource-efficient agricultural practices.",
+    },
+  ]
   const milestones = [
     {
       year: "2012",
@@ -105,28 +126,15 @@ export function About() {
             </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed text-base lg:text-lg">
               <p>
-                AgriConsult Hub is a leading agricultural consultancy firm dedicated to transforming farming communities
-                through innovation, expertise, and sustainable practices. Since our founding in 2012, we have been at
-                the forefront of agricultural development, empowering farmers and agribusinesses to achieve their full
-                potential.
-              </p>
-              <p>
-                Our team of experienced agronomists, soil scientists, and agribusiness consultants work closely with
-                farmers to provide tailored solutions that address their unique challenges. From soil analysis to
-                precision farming, we leverage cutting-edge technology and proven methodologies to drive measurable
-                results.
-              </p>
-              <p>
-                We believe that sustainable agriculture is the key to food security and environmental preservation. Our
-                holistic approach combines traditional farming wisdom with modern scientific methods to create solutions
-                that are both effective and environmentally responsible.
+               R SEEDS CONSULTANTS CO Ltd is a dynamic and forward-thinking company
+                specializing in seed processing, agricultural research, and consultancy services.
+                 With a commitment to enhancing agricultural productivity, the company focuses on delivering high-quality 
+                 seed processing solutions and advisory services to farmers and agribusiness stakeholders across Rwanda.
               </p>
             </div>
-
-            {/* Mission, Vision, Values with Icons */}
-            <div className="space-y-4 pt-4">
+             <div className="space-y-4 pt-4">
               {values.map((value, index) => (
-                <div key={index} className="flex items-start gap-3">
+                <div key={index} className="flex items-start gap-3 bg-card border-primary/20 rounded-xl p-4 shadow-md hover:shadow-lg transition-shadow hover:border-primary/40">
                   <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary text-primary-foreground mt-1 shadow-md">
                     <value.icon className="h-5 w-5" />
                   </div>
@@ -137,9 +145,20 @@ export function About() {
                 </div>
               ))}
             </div>
+           
           </div>
         </div>
-
+         {/* Mission, Vision, Values with Icons */}
+            <div className="space-y-4 pt-4 flex gap-6 lg:gap-8 mb-20 lg:mb-32 lg:grid lg:grid-cols-3 center-items">
+              {corevalues.map((value, index) => (
+                <div key={index} className="flex items-start gap-3 bg-card border-primary/20 rounded-xl p-4 shadow-md hover:shadow-lg transition-shadow hover:border-primary/40">
+                  <div>
+                    <h3 className="font-bold mb-1 text-lg text-primary">{value.title}</h3>
+                    <p className="text-sm text-muted-foreground leading-relaxed">{value.description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
         {/* Company History Timeline */}
         <div className="mb-20 lg:mb-32">
           <div className="text-center mb-12 lg:mb-16">

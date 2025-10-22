@@ -24,11 +24,11 @@ export function Contact() {
                   <div>
                     <p className="font-bold text-xl mb-3 text-primary">Address</p>
                     <p className="text-muted-foreground leading-relaxed text-base">
-                      123 Agricultural Way
-                      <br />
-                      Nairobi, Kenya
-                      <br />
-                      P.O. Box 12345-00100
+                      {/* 123 Agricultural Way
+                      <br /> */}
+                      Remera , Gasabo , Kigali city , Rwanda
+                      {/* <br />
+                      P.O. Box 12345-00100 */}
                     </p>
                   </div>
                 </div>
@@ -40,13 +40,13 @@ export function Contact() {
                   <div>
                     <p className="font-bold text-xl mb-3 text-primary">Email</p>
                     <p className="text-muted-foreground text-base">
-                      <a href="mailto:info@agriconsulthub.com" className="hover:text-primary transition-colors">
-                        info@agriconsulthub.com
+                      <a href="mailto:fredkaregeya1@gmail.com" className="hover:text-primary transition-colors">
+                        fredkaregeya1@gmail.com
                       </a>
-                      <br />
+                      {/* <br />
                       <a href="mailto:support@agriconsulthub.com" className="hover:text-primary transition-colors">
                         support@agriconsulthub.com
-                      </a>
+                      </a> */}
                     </p>
                   </div>
                 </div>
@@ -58,12 +58,8 @@ export function Contact() {
                   <div>
                     <p className="font-bold text-xl mb-3 text-primary">Phone</p>
                     <p className="text-muted-foreground text-base">
-                      <a href="tel:+254700123456" className="hover:text-primary transition-colors">
-                        +254 700 123 456
-                      </a>
-                      <br />
-                      <a href="tel:+254733987654" className="hover:text-primary transition-colors">
-                        +254 733 987 654
+                      <a href="tel:+250781096099" className="hover:text-primary transition-colors">
+                        +250 781 096 099
                       </a>
                     </p>
                   </div>
@@ -81,20 +77,6 @@ export function Contact() {
                       Saturday: 9:00 AM - 2:00 PM
                       <br />
                       Sunday: Closed
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-primary shadow-lg">
-                    <Globe className="h-7 w-7 text-primary-foreground" />
-                  </div>
-                  <div>
-                    <p className="font-bold text-xl mb-3 text-primary">Website</p>
-                    <p className="text-muted-foreground text-base">
-                      <a href="https://www.agriconsulthub.com" className="hover:text-primary transition-colors">
-                        www.agriconsulthub.com
-                      </a>
                     </p>
                   </div>
                 </div>

@@ -26,11 +26,11 @@ export function Header() {
             className="flex items-center gap-2 md:gap-3 lg:gap-4 hover:opacity-90 transition-opacity group flex-shrink-0"
           >
             <div className="flex h-10 w-10 md:h-12 md:w-12 lg:h-14 lg:w-14 items-center justify-center rounded-xl bg-primary shadow-lg group-hover:shadow-xl transition-shadow">
-              <Sprout className="h-5 w-5 md:h-7 md:w-7 lg:h-8 lg:w-8 text-primary-foreground" />
+              <span className="text-base md:text-xl lg:text-2xl font-bold text-white">R</span>
             </div>
             <div className="flex flex-col">
               <span className="text-base md:text-xl lg:text-2xl font-bold text-foreground leading-tight">
-                AgriConsult Hub
+                SEEDS CONSULTANTS
               </span>
               <span className="text-[10px] md:text-xs lg:text-sm text-muted-foreground font-medium hidden sm:block">
                 Cultivating Excellence
