@@ -12,10 +12,10 @@ export function Footer() {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-white">
-                <Sprout className="h-6 w-6 text-primary" />
-              </div>
-              <span className="text-lg sm:text-xl font-bold">AgriConsult Hub</span>
+              <div className="flex h-10 w-10 md:h-12 md:w-12 lg:h-14 lg:w-14 items-center justify-center rounded-xl bg-white  transition-shadow">
+              <span className="text-base md:text-xl lg:text-2xl font-bold text-primary">R</span>
+            </div>
+              <span className="text-lg sm:text-xl font-bold">SEEDS CONSULTANTS</span>
             </div>
             <p className="text-white/80 text-sm leading-relaxed">
               Leading global agriculture consultancy dedicated to transforming farming practices through sustainable
@@ -103,32 +103,32 @@ export function Footer() {
             <ul className="space-y-2.5">
               <li>
                 <Link href="/services" className="text-white/80 hover:text-white transition-colors text-sm">
-                  Crop Management
+                  Seed production and breeding
                 </Link>
               </li>
               <li>
                 <Link href="/services" className="text-white/80 hover:text-white transition-colors text-sm">
-                  Soil Health Analysis
+                  Support Activities for Crop Production
                 </Link>
               </li>
               <li>
                 <Link href="/services" className="text-white/80 hover:text-white transition-colors text-sm">
-                  Sustainable Farming
+                 Post-Harvest Crop Activities
                 </Link>
               </li>
               <li>
                 <Link href="/services" className="text-white/80 hover:text-white transition-colors text-sm">
-                  Precision Agriculture
+                  Research & Development
                 </Link>
               </li>
               <li>
                 <Link href="/services" className="text-white/80 hover:text-white transition-colors text-sm">
-                  Farm Business Planning
+                  Warehousing & Storage
                 </Link>
               </li>
               <li>
                 <Link href="/services" className="text-white/80 hover:text-white transition-colors text-sm">
-                  Agricultural Technology
+                  Transportation & Logistics
                 </Link>
               </li>
             </ul>
@@ -140,21 +140,21 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-sm">
                 <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0 text-accent" />
-                <span className="text-white/80">123 Agriculture Lane, Green Valley, CA 94000, USA</span>
+                <span className="text-white/80">Remera , Gasabo , Kigali city , Rwanda</span>
               </li>
               <li className="flex items-center gap-2 text-sm">
                 <Phone className="h-4 w-4 flex-shrink-0 text-accent" />
-                <a href="tel:+1234567890" className="text-white/80 hover:text-white transition-colors">
-                  +1 (234) 567-890
+                <a href="tel:+250781096099" className="text-white/80 hover:text-white transition-colors">
+                 +250 781 096 099
                 </a>
               </li>
               <li className="flex items-center gap-2 text-sm">
                 <Mail className="h-4 w-4 flex-shrink-0 text-accent" />
                 <a
-                  href="mailto:info@agriconsulthub.com"
+                  href="mailto:fredkaregeya1@gmail.com"
                   className="text-white/80 hover:text-white transition-colors break-all"
                 >
-                  info@agriconsulthub.com
+                   fredkaregeya1@gmail.com
                 </a>
               </li>
             </ul>
